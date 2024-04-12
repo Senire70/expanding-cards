@@ -17,15 +17,11 @@ main {
     display: flex;
     column-gap: 1em;
     padding: 1px;
-    /* grid-template-columns: repeat(4, 1fr) 5fr; */
-    /* justify-content: space-around; */
-    /* background-color: aqua; */
 }
 
 .container {
     background-color: red;
     border-radius: 50px;
-    /* margin: 10px 0; */
     width: 7%;
     cursor: pointer;
     background-position: 50% center;
@@ -46,15 +42,14 @@ main {
     h2 {
         opacity: 1;
         margin: 0 0 15px 25px;
-        /* bottom: 90px;
-        left: 90px; */
         color: white;
         font-size: 24px;
         font-family: sans-serif;
         font-weight: 500;
+        transition: 1s;
     }
 }
-
+/* agregar imagenes */
 .container:nth-child(1) {
     background-image: url("https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     background-size: cover;
